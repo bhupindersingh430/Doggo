@@ -1,0 +1,303 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+/*  have to be used to override the bootstrap properties */
+
+/* colors used
+rgb(222,67,80)
+rgb(190, 190, 190)
+rgb(63,61,86) */
+
+/* html elements */
+* {
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  background-color: rgb(222,67,80) !important;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(226,226,226);
+}
+
+
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 1.5;
+  width: 800px;
+  margin: 0 auto;
+}
+
+em {
+  display: inline-block;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px ;
+  line-height: 2;
+  color: rgb(63,61,86) !important;
+  font-weight: 600;
+}
+
+.nav-link {
+  transition: color 0.5s ease;
+}
+
+.nav-link:hover {
+  color: rgb(63,61,86) !important;
+}
+
+.fixed-top {
+  background-color: rgb(222,67,80);
+  opacity: 0.9;
+}
+
+.h-div {
+  margin: 12% 0 10% 0 ;
+}
+
+
+.heading {
+  font-size: 80px ;
+  line-height: 1;
+  
+}
+
+.container-fluid {
+  width: 85%;
+}
+
+.buttons {
+  margin: 15% 0 5% 0;
+}
+
+.btn {
+  margin: 0 5% 5% 0 ;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+.ionicon {
+  top: 10px;
+}
+
+.btn-outline-light, .btn-outline-dark, .btn-dark {
+  color:rgb(190, 190, 190);
+  background-color: rgb(63,61,86);
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.btn-outline-light:hover, .btn-outline-dark:hover, .btn-dark:hover {
+  cursor: pointer;
+  background-color: rgb(190, 190, 190);
+  color: rgb(63,61,86);
+}
+
+.btn-outline-light {
+  margin: 2vw;
+}
+
+.appstore-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.playstore-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.hero-img img {
+  height: 400px;
+  width:500px;
+}
+
+/* features */
+#features {
+  padding: 12% 0 5% 0;
+  width: 97%;
+}
+
+.row-fav {
+  height: 500px;
+  margin: 0;
+  padding: 5% 0;
+  background-color: rgb(190, 190, 190);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.col-fav {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-fav h3 {
+  font-size: 30px;
+  color: rgb(63,61,86);
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.col-fav p {
+  color: rgb(63,61,86);
+  font-weight: 500;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 50px;
+  color: rgb(63,61,86);
+  transition: color 0.5s ease;
+}
+
+.feature-icon:hover {
+  color: rgb(222,67,80);
+  cursor: pointer;
+}
+
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  color: rgb(190, 190, 190);
+}
+
+
+
+.testimonial-image {
+  width: 8%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  margin-top: -7%;
+  padding: 5% 0 5% 0;
+}
+
+#press img {
+  width: 10%;
+  margin: 20px 40px 40px;
+}
+
+.carousel-item {
+  height: 500px;
+  padding: 10px;
+  margin-top: 100px;
+  background-color: rgb(222,67,80);
+  color: rgb(190, 190, 190);
+}
+
+/* pricing */
+#pricing {
+  background-color: rgb(190, 190, 190);
+  color: rgb(63,61,86);
+  text-align: center;
+  padding: 10% 0;
+  width: 97%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#pricing .row {
+  width: 99vw;
+}
+
+#pricing h2 {
+  width: 85vw;
+  padding-top: 20px;
+}
+
+#pricing > p {
+  padding-bottom: 35px;
+}
+
+.card {
+  height: 500px;
+  width: 300px;
+  color: rgb(63,61,86);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.card-body button{
+  padding: 10px 20px;
+}
+
+.benefits h2 {
+  font-size: 35px;
+  width: 200px !important;
+}
+
+.benefits p {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.btn-outline-dark {
+  color:rgb(63,61,86);
+  background-color: rgb(190, 190, 190);
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.btn-outline-dark:hover {
+  cursor: pointer;
+  background-color: rgb(63,61,86);
+  color: rgb(190, 190, 190);
+}
+
+/* call to action */
+.buttons-last {
+  padding: 0;
+  flex-direction: row;
+  margin: 5% 0 0 0;
+}
+
+/* download */
+#download {
+  padding: 20px 0;
+}
+
+/* footer */
+#contact {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.footer-icons {
+  font-size: 30px;
+  margin: 0 30px;
+  color:rgb(190, 190, 190);
+}
+
+#contact p {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(63,61,86);
+  color:rgb(190, 190, 190);
+  margin-bottom: 0;
+}

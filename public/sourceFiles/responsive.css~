@@ -1,0 +1,138 @@
+@media (max-width: 1050px) {
+
+  #testimonials {
+    margin: 12% 0 -5% 0 !important;
+  }
+
+  .benefits p {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 250px;
+  }
+
+  .testimonial-text {
+    padding: 0 100px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 950px) {
+
+  .nav-link {
+    font-size: 30px;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  .appstore-logo, .playstore-logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .heading {
+    font-size: 60px;
+  }
+
+  .buttons {
+    width: 75vw;
+    margin-top: 25%;
+  }
+
+  .buttons-last {
+    margin-top: 15%;
+  }
+
+  #contact p {
+    width: 100%;
+  }
+
+  #press img {
+    width: 20%;
+  }
+
+  .hero-img img {
+    height: 300px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .row-fav {
+    height: 95%;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .testimonial-text {
+    font-size: 20px;
+    padding-top: 10vw;
+    height: 30vw;
+    width: 85vw;
+  }
+
+  .card {
+    margin-top: 20px;
+  }
+
+  .hero-img img {
+    height: 200px;
+    width: 300px;
+    margin-left: 10%;
+  }
+
+  .buttons-last {
+    margin-top: 15%;
+  }
+
+  #testimonials {
+    margin: 0;
+  }
+
+  #pricing {
+    padding: 20% 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .buttons-last {
+    padding: 15% 0 0 30%;
+  }
+
+  .testimonial-text {
+    margin-bottom: 100px;
+  }
+
+  #contact p {
+    width: 101%;
+  }
+
+  h2, h3 {
+    font-size: 25px;
+  }
+
+  .benefits h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .testimonial-text {
+    font-size: 20px;
+    padding-top: 10vw;
+    padding-bottom: 40vw;
+    height: 30vw;
+    width: 98vw;
+  }
+
+  .footer-icons {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+}
